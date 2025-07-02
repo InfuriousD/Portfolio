@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f7fa;
+  color: #333;
+  line-height: 1.6;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0c0c52;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+nav .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+nav .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+nav .nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #0c0c52;
+  color: white;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.hero p {
+  font-size: 1.2rem;
+}
+.hero .btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.8rem 2rem;
+  background: #ff5722;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+section {
+  padding: 3rem 2rem;
+  max-width: 960px;
+  margin: auto;
+}
+h2 {
+  font-size: 2rem;
+  color: #0c0c52;
+  margin-bottom: 1rem;
+}
+ul {
+  list-style: disc;
+  margin-left: 1.5rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+form input, form textarea {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form button {
+  background: #0c0c52;
+  color: white;
+  border: none;
+  padding: 1rem;
+  cursor: pointer;
+}
+form button:hover {
+  background: #ff5722;
+}
+footer {
+  text-align: center;
+  padding: 2rem;
+  background: #0c0c52;
+  color: white;
+}
