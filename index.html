@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mayank Garg | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(to right, #eef2f3, #8e9eab);
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #0c0c52;
+      color: white;
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3rem;
+    }
+    header p, header a {
+      font-size: 1.1rem;
+      margin-top: 0.5rem;
+      color: lightblue;
+    }
+    section {
+      padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+      animation: fadeIn 1s ease-in;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    h2 {
+      color: #0c0c52;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #0c0c52;
+      display: inline-block;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    li {
+      margin-bottom: 1rem;
+    }
+    a {
+      text-decoration: none;
+      color: #0c0c52;
+      font-weight: 600;
+    }
+    a:hover {
+      color: #ff5722;
+    }
+    .project a {
+      display: inline-block;
+      margin-bottom: 0.3rem;
+    }
+    .contact-form {
+      background-color: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-family: inherit;
+    }
+    .contact-form button {
+      padding: 0.8rem 2rem;
+      background-color: #0c0c52;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .contact-form button:hover {
+      background-color: #ff5722;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #0c0c52;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mayank Garg</h1>
+    <p>Software Developer | UI/UX Designer | Cybersecurity Enthusiast | Network Engineer</p>
+    <p>Email: gargmayank2727@gmail.com | Phone: 352-219-2471 | <a href="https://www.linkedin.com/in/gargkmayank" target="_blank">LinkedIn</a></p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>Motivated and adaptable technology professional with a diverse skill set spanning software development, UI/UX design, networking, and cybersecurity. Experienced in building modern, responsive, and user-friendly applications, with a strong focus on performance and accessibility.</p>
+  </section>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> HTML5, CSS3, JavaScript, TypeScript, Java, Python, C++, SQL</li>
+      <li><strong>Frameworks:</strong> React.js, Next.js, Bootstrap, Tailwind CSS</li>
+      <li><strong>Design:</strong> Figma, Adobe XD, Canva</li>
+      <li><strong>Tools:</strong> Git, GitHub, Vercel, Firebase, MongoDB, MySQL</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <ul class="project">
+      <li><a href="https://github.com/InfuriousD/GatorGlide-Delivery-" target="_blank">GatorGlide Delivery System</a>: Python-based logistics system using AVL trees for real-time order and ETA management.</li>
+      <li><a href="https://github.com/InfuriousD/FTP" target="_blank">FTP Client-Server</a>: Python socket-based FTP system supporting chunked file transfer over TCP.</li>
+      <li><a href="https://www.figma.com/proto/xnIL1J8u6xO5MxH921RQwq/High-Fidelity-Prototype?node-id=0-1" target="_blank">UI/UX High-Fidelity Prototype</a>: Responsive design prototype showcasing modern user interfaces and accessibility.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <ul>
+      <li><strong>Lead Advertiser</strong> – UF Developer Student Club (2024–Present)</li>
+      <li><strong>Web Developer</strong> – Fair Child Public School (2025–Present)</li>
+      <li><strong>Frontend Developer</strong> – Ullavi Technologies, Singapore (2023)</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <ul>
+      <li><strong>MS in Computer and Information Science</strong> – University of Florida (2025)</li>
+      <li><strong>B.Tech in Computer Science</strong> – Amity University (2024)</li>
+      <li><strong>Exchange Programs:</strong> University College London, Adelphi University NY</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact Me</h2>
+    <form class="contact-form" action="https://formspree.io/f/mwkgrbwb" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2024 Mayank Garg. Built with HTML, CSS, and 💙. Deployed on Vercel.
+  </footer>
+</body>
+</html>
